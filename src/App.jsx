@@ -76,7 +76,7 @@ const Portfolio = () => {
     { name: "React", level: 80, color: "bg-cyan-500" },
     { name: "JavaScript", level: 75, color: "bg-yellow-500" },
     { name: "Tailwind CSS", level: 85, color: "bg-teal-500" },
-    { name: "Git/GitHub", level: 80, color: "bg-gray-700" },
+    { name: "Git/GitHub", level: 80, color: "bg-white-700" },
     { name: "Problem Solving", level: 95, color: "bg-purple-500" },
     { name: "Game Development", level: 70, color: "bg-pink-500" }
   ];
