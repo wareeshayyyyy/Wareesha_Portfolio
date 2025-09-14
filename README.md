@@ -36,5 +36,5 @@ Welcome to my personal **developer portfolio** built using **React.js** and **Ta
 
 ## 🤝 Connect
 
-- 📧 wareeshaashraf09@gmail.com  
+- 📧 f223441@cfd.nu.edu.pk
 - 🐱 [GitHub Profile](https://github.com/wareeshayyyyy)
