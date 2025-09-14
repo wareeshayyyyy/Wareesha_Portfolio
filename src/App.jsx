@@ -27,58 +27,60 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: "CHESS-in-python",
-      description: "A complete chess game implementation in Python with GUI and game logic",
-      tech: ["Python"],
-      icon: <Gamepad2 className="w-6 h-6" />,
+      title: "Pixel_Craft",
+      description: "Real-time collaborative pixel art editor with color palette, export, and layers functionality",
+      tech: ["React", "Tailwind", "FastAPI", "WebSockets"],
+      icon: <Code className="w-6 h-6" />,
       color: "from-blue-500 to-purple-600"
     },
     {
-      title: "Banking-System",
-      description: "A comprehensive banking system with account management and transaction features",
-      tech: ["Programming"],
-      icon: <Database className="w-6 h-6" />,
+      title: "Connecto",
+      description: "Full-stack social platform with authentication, post system, friend network, and real-time interactions",
+      tech: ["MongoDB", "Express", "React", "Node.js"],
+      icon: <Users className="w-6 h-6" />,
       color: "from-green-500 to-teal-600"
     },
     {
-      title: "Candy-Crush-Game",
-      description: "Recreation of the popular Candy Crush game with matching mechanics",
-      tech: ["Game Development"],
+      title: "CHESS-in-python",
+      description: "Socket-based multiplayer chess game with networking, sync, and turn-based logic",
+      tech: ["Python", "Sockets", "GUI"],
       icon: <Gamepad2 className="w-6 h-6" />,
-      color: "from-pink-500 to-rose-600"
+      color: "from-indigo-500 to-blue-600"
     },
     {
       title: "Election-Management-System",
       description: "Digital voting system with candidate management and result tracking",
-      tech: ["C++"],
+      tech: ["C++", "OOP", "File Handling"],
       icon: <Users className="w-6 h-6" />,
-      color: "from-indigo-500 to-blue-600"
-    },
-    {
-      title: "GitHub-Simulation-Project",
-      description: "A simulation project replicating GitHub's version control features",
-      tech: ["C++"],
-      icon: <GitBranch className="w-6 h-6" />,
-      color: "from-gray-600 to-gray-800"
+      color: "from-pink-500 to-rose-600"
     },
     {
       title: "Sudoku-Game-in-Python",
-      description: "Interactive Sudoku puzzle game with solver and generator algorithms",
-      tech: ["Python"],
+      description: "AI logic-based Sudoku solver using Propositional and First-Order Logic",
+      tech: ["Python", "AI", "Logic Programming"],
       icon: <Calculator className="w-6 h-6" />,
       color: "from-orange-500 to-red-600"
+    },
+    {
+      title: "GitHub-Simulation-Project",
+      description: "A simulation project replicating core GitHub version control features",
+      tech: ["C++", "OOP", "Data Structures"],
+      icon: <GitBranch className="w-6 h-6" />,
+      color: "from-gray-600 to-gray-800"
     }
   ];
 
   const skills = [
     { name: "Python", level: 90, color: "bg-blue-500" },
     { name: "C++", level: 85, color: "bg-red-500" },
-    { name: "React", level: 80, color: "bg-cyan-500" },
-    { name: "JavaScript", level: 75, color: "bg-yellow-500" },
+    { name: "React", level: 85, color: "bg-cyan-500" },
+    { name: "Node.js & Express", level: 80, color: "bg-green-500" },
+    { name: "MongoDB", level: 75, color: "bg-emerald-500" },
+    { name: "FastAPI", level: 80, color: "bg-yellow-500" },
     { name: "Tailwind CSS", level: 85, color: "bg-teal-500" },
-    { name: "Git/GitHub", level: 80, color: "bg-white-700" },
-    { name: "Problem Solving", level: 95, color: "bg-purple-500" },
-    { name: "Game Development", level: 70, color: "bg-pink-500" }
+    { name: "WebSocket & Real-time", level: 75, color: "bg-indigo-500" },
+    { name: "Git/GitHub", level: 85, color: "bg-white-700" },
+    { name: "Problem Solving", level: 95, color: "bg-purple-500" }
   ];
 
   const scrollToSection = (sectionId) => {
@@ -364,4 +366,7 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Portfolio; 
+
+
+ 
