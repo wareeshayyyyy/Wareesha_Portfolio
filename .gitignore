@@ -9,14 +9,15 @@ lerna-debug.log*
 
 # Dependencies
 node_modules
-/server/node_modules
 dist
 dist-ssr
 *.local
 
+# Server code
+/server/
+
 # Environment variables
 .env
-/server/.env
 
 # Editor directories and files
 .vscode/*
